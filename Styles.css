@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;   
+}
+
+html {
+    height: 100%;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+    background-color: antiquewhite; 
+    
+}
+
+
+h1 {
+    color: rgb(5, 147, 147);
+}
+
+h2 {
+    display: flex;
+    color: #00b39b;
+    font: 2.125rem;
+    font-weight: 400;
+    align-content: center;
+    justify-content: center;
+}
+
+.paragraphs{
+    display: flex;
+    align-content: space-between;
+    /* background-color: red; */
+    height: 200px;
+    padding: 20px;
+    font-weight: 100px;
+    align-items: flex-start;
+    font-size: 20px;
+    margin: 20px;
+    justify-content: center;
+    
+}
+
+.p1 {
+    width: 35%;
+    margin-right: 20px;
+    padding: 10px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.p2{
+    width:35%;
+    margin-left: 20px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+.description{
+    display: flex;
+    /* background-color: blueviolet; */
+    justify-content: space-between;
+    margin: 10px 10px 10px 10px;
+    padding: 20px;
+    height: 300px;
+    color:azure;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.card-1{
+    border: 5px solid lightgreen;
+    background-color: lightgreen;
+    border-radius: 8px;
+    height: 200px;
+    width: 20%;
+    margin-left: 200px;
+}
+
+.card-2{
+    border: 5px solid rgb(5, 70, 144);
+    background-color: rgb(5, 70, 144);
+    border-radius: 8px;
+    height: 200px;
+    width: 20%;
+}
+
+.card-3{
+    border: 5px solid rgb(15, 43, 53);
+    background-color: rgb(15, 43, 53);
+    border-radius: 8px;
+    height: 200px;
+    width: 20%;
+    margin-right: 200px;
+}
+
+h3{
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* .fact{
+    display: flex;
+    flex-wrap: wrap;
+   
+} */
+.info {
+    background-color: rgb(156, 211, 233);
+    display: flex;
+    padding: 20px;
+    box-sizing: inherit;
+    height: 550px;
+    display: flex;
+    align-content: space-between;
+    position: relative;
+    
+}
+
+
+h4 {
+    color: #00b39b;
+    font-size: larger;
+    font-weight: 400;
+    padding: 10px;
+}
+
+
+
+.branches, .stats, .patients, .doctors {
+    background-color: aliceblue;
+    border: 5px solid aliceblue ;
+    border-radius: 10px;
+    height: 200px;
+    width: 25%;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.stats {
+    position: absolute;
+    left: 1015px;
+    
+}
+.branches{
+    position: absolute;
+    margin-left: 600px;
+
+    ;
+}
+
+
+.patients, .doctors {
+   
+    margin-top: 250px;
+   
+    
+}
+
+.drop-menu {
+    color: rgb(17, 17, 37);
+    border: 0px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: medium;
+    font-family:  Helvetica;
+}
+
+img {
+    padding-left: 10px;
+}
+
+.logo {
+    padding-left: 80px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    color: #ababab;
+    font-size: 12px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+
+
+
